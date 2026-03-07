@@ -14,7 +14,7 @@
 
 <main>
     <canvas id="game" width="400" height="400"></canvas> <br>
-    <button onclick="window.location.href='snake.php'">Restart gry</button>
+    <button onclick="window.location.href='snake.html'">Restart gry</button>
     <script src="snake.js"></script>
 </main>
 
