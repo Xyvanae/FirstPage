@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake2.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🐍 Snake Game</h1>
+    <p class="subtitle">Klasyczna gra w nowoczesnym wydaniu</p>
+
+    <div class="panel">
+        <h2>🎮 Jak grać?</h2>
+        <ul>
+            <li>⬆️ ⬇️ ⬅️ ➡️ steruj wężem</li>
+            <li>🍎  zbieraj jedzenie</li>
+            <li>💥  nie uderz w ścianę ani w siebie</li>
+        </ul>
+    </div>
+
+    <div class="panel">
+        <h2>⚙️ Poziom trudności</h2>
+        <select>
+            <option>Łatwy</option>
+            <option>Średni</option>
+            <option>Trudny</option>
+            <option>Hardcore 😈</option>
+        </select>
+    </div>
+
+    <div class="panel stats">
+        <p>🏆 Rekord: <span id="bestScore">0</span></p>
+        <p>🎯 Ostatni wynik: <span id="lastScore">0</span></p>
+    </div>
+
+    <button class="play-btn" onclick="window.location.href='snake.php'">
+        ▶️ Zagraj!
+    </button>
+            <section class="nowosciramka"><a href="stronaglowna.html">WRÓĆ ➺</a></section>
+    <footer>
+        <p>Made with ❤️ by You</p>
+    </footer>
+</div>
+
+</body>
+</html>

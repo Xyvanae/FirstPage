@@ -1,0 +1,126 @@
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color:#f7f3eb;
+}
+
+/* MENU */
+
+header{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#EFA856;
+    padding:15px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.15);
+}
+
+header h2{
+    margin:0;
+}
+
+a{
+    color:#9E531F;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+a:hover{
+    color:#6b2f08;
+}
+
+/* GŁÓWNY UKŁAD */
+
+main{
+    display:flex;
+}
+
+/* LEWA STRONA */
+
+.lewy{
+    width:25%;
+    height:700px;
+    background-color:#FFEEAD;
+    text-align:center;
+    padding-top:20px;
+    box-shadow:inset -2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* PRAWA STRONA */
+
+.prawy{
+    flex:1;
+    text-align:center;
+    color:#823C0F;
+    padding:30px;
+}
+
+/* OBRAZEK */
+
+img{
+    width:300px;
+    height:auto;
+    padding:20px;
+    border-radius:15px;
+}
+
+/* TEKST */
+
+h1{
+    color:#823C0F;
+}
+
+h3{
+    color:#823C0F;
+}
+
+p {
+    font-size: 150%;
+}
+
+/* RAMKI */
+
+.ramka{
+    border:2px solid #823C0F;
+    border-radius:12px;
+    margin:40px;
+    text-align:center;
+    padding:10px;
+    background-color:#fff4cf;
+    transition:0.3s;
+}
+
+.ramka:hover{
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+.nowosciramka{
+    border:2px solid #823C0F;
+    border-radius:12px;
+    margin:40px auto;
+    text-align:center;
+    padding:30px;
+    width:180px;
+    background-color:#fff4cf;
+    transition:0.3s;
+}
+
+.nowosciramka:hover{
+    transform:translateY(-5px);
+    box-shadow:0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* STOPKA */
+
+footer{
+    text-align: center;
+    background-color: #EFA856;
+    color: #9E531F;
+    padding: 5px 0;      /* mniejszy odstęp w pionie */
+    font-size: 12px;     /* mniejszy tekst */
+    margin-top: 10px;    /* trochę odstępu od reszty strony */
+}
