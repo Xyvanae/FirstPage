@@ -1,5 +1,4 @@
 
-/* Ogólne ustawienia strony */
 body {
     margin: 0;
     padding: 0;
@@ -7,11 +6,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e0baff; /* ciemny granat */
-    color: #FFB6C1; /* jasny róż */
+    background-color: #e0baff; 
+    color: #FFB6C1; 
 }
 
-/* Nagłówek */
 header {
     margin-top: 20px;
     text-align: center;
@@ -19,7 +17,7 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    text-shadow: 2px 2px 8px #8A2BE2; /* fioletowy glow */
+    text-shadow: 2px 2px 8px #8A2BE2;
     margin-bottom: 30px;
 }
 
