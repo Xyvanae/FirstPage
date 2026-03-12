@@ -124,3 +124,45 @@ footer{
     font-size: 12px;     /* mniejszy tekst */
     margin-top: 10px;    /* trochę odstępu od reszty strony */
 }
+
+@media (max-width: 768px){
+
+header{
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+}
+
+main{
+    flex-direction:column;
+}
+
+.lewy{
+    width:100%;
+    height:auto;
+    padding:20px;
+}
+
+.prawy{
+    width:100%;
+    padding:20px;
+}
+
+img{
+    width:80%;
+    max-width:300px;
+}
+
+.ramka{
+    margin:20px;
+}
+
+.nowosciramka{
+    width:80%;
+}
+
+p{
+    font-size:110%;
+}
+
+}
